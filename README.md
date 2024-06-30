@@ -3,7 +3,7 @@
 Welcome to **TailShine**, a comprehensive API service platform designed to provide developers with essential tools to enhance their applications. With TailShine, you can access a variety of APIs for free, with a limit of 30,000 requests per month on the free plan.
 
 
-![alt text](https://github.com/AyoubSghuri/TailShine/blob/main/TailSHINE_Frontend/src/images/img.png)
+![alt text](https://github.com/AyoubSghuri/TailShine/blob/main/TailSHINE_Frontend/src/images/logoinwhite.png)
 ## Features
 
 - **API Image to Text**: Convert images to text effortlessly.
