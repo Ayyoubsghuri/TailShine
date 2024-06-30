@@ -1,19 +1,19 @@
+# TailShine
 
-# TailShine README
-
-## Overview
-TailShine is a versatile API service that provides users with a suite of tools including image-to-text, QR code reading, grammar checking, WHOIS lookups, translation, and currency exchange functionalities. With our free plan, users can make up to 30,000 requests per month. TailShine is built using Django, Tailwind CSS, SQLite, and React.js.
+Welcome to **TailShine**, a comprehensive API service platform designed to provide developers with essential tools to enhance their applications. With TailShine, you can access a variety of APIs for free, with a limit of 30,000 requests per month on the free plan.
 
 ## Features
-- **Image to Text API**: Convert images into text effortlessly.
-- **QR Code Reader API**: Decode information from QR codes.
-- **Grammar API**: Check and correct grammar in texts.
-- **WHOIS API**: Retrieve WHOIS information for domain names.
-- **Translation API**: Translate text between multiple languages.
-- **Currency Exchange API**: Get real-time currency exchange rates.
 
-## Technology Stack
-- **Backend**: Django
+- **API Image to Text**: Convert images to text effortlessly.
+- **API QR Code Reader**: Decode QR codes to text.
+- **API Grammar**: Check and correct grammar in your text.
+- **API WHOIS**: Retrieve WHOIS information for domain names.
+- **API Translate**: Translate text between different languages.
+- **API Currency Exchange**: Get real-time currency exchange rates.
+
+## Technologies Used
+
+- **Backend**: Django REST framework
 - **Frontend**: React.js
 - **Styling**: Tailwind CSS
 - **Database**: SQLite
@@ -21,61 +21,97 @@ TailShine is a versatile API service that provides users with a suite of tools i
 ## Getting Started
 
 ### Prerequisites
+
 - Python 3.8+
 - Node.js 14+
-- npm 6+
+- SQLite
 
 ### Installation
 
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/AyoubSghuri/tailshine.git
-   cd tailshine
-   ```
-
-2. **Backend Setup:**
-   - Create a virtual environment and activate it:
-     ```bash
-     python -m venv env
-     source env/bin/activate  # On Windows use \`env\Scripts\activate\`
-    ```
-   - Install the required packages:
-     ```bash
-     pip install -r requirements.txt
-    ```
-   - Apply migrations and start the Django server:
-     
-     python manage.py migrate
-     python manage.py runserver
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/yourusername/tailshine.git
+    cd tailshine
     ```
 
-3. **Frontend Setup:**
-   - Navigate to the frontend directory:
-     ```bash
-     cd frontend
-    ```
-   - Install the required packages:
-     ```bash
-     npm install
-    ```
-   - Start the React development server:
-     ```bash
-     npm start
+2. Set up the backend:
+    ```bash
+    cd backend
+    python -m venv venv
+    source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+    pip install -r requirements.txt
+    python manage.py migrate
+    python manage.py createsuperuser
+    python manage.py runserver
     ```
 
-### API Usage
+3. Set up the frontend:
+    ```bash
+    cd ../frontend
+    npm install
+    npm start
+    ```
 
-To use the TailShine APIs, include your API key in the request header as follows:
-\`\`\`
-X-API-KEY: your_api_key_here
-\`\`\`
+### Usage
 
-#### Example Request
+1. Sign up on TailShine.
+2. Access the dashboard to get your API key.
+3. Use the following headers for API requests:
+    ```http
+    X-API-KEY: your_api_key_here
+    ```
 
-```bash
-curl -X GET "https://api.tailshine.com/image-to-text" \
-     -H "X-API-KEY: your_api_key_here"
-\`\`\`
+### Example Requests
 
-### Figma Design
-You can view the design of the TailShine project on Figma [here](https://www.figma.com/design/YazCxfTdf9EQGFPVECevWJ/TailShine?node-id=1-957&t=VnCsrDkGDuZqOZ9P-1).
+- **Image to Text**:
+    ```python
+    import requests
+
+    url = "https://api.tailshine.com/image-to-text"
+    headers = {"X-API-KEY": "your_api_key_here"}
+    files = {"file": open("image.png", "rb")}
+
+    response = requests.post(url, headers=headers, files=files)
+    print(response.json())
+    ```
+
+- **QR Code Reader**:
+    ```python
+    import requests
+
+    url = "https://api.tailshine.com/qr-code-reader"
+    headers = {"X-API-KEY": "your_api_key_here"}
+    files = {"file": open("qrcode.png", "rb")}
+
+    response = requests.post(url, headers=headers, files=files)
+    print(response.json())
+    ```
+
+- **Grammar Check**:
+    ```python
+    import requests
+
+    url = "https://api.tailshine.com/grammar-check"
+    headers = {"X-API-KEY": "your_api_key_here"}
+    data = {"text": "Your text goes here"}
+
+    response = requests.post(url, headers=headers, data=data)
+    print(response.json())
+    ```
+
+## API Documentation
+
+For detailed API documentation and examples, visit our [API Documentation](https://www.figma.com/design/YazCxfTdf9EQGFPVECevWJ/TailShine?node-id=1-957&t=VnCsrDkGDuZqOZ9P-1).
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Acknowledgements
+
+Special thanks to all the contributors and supporters who helped in the development of TailShine.
+
+---
+
+Created by: Ayyoub Sghuri
+Promotion of: 2020/2022
