@@ -1,0 +1,17 @@
+.code{
+    @apply bg-gray-200 font-mono font-bold rounded px-3 uppercase;
+}
+td{
+    padding: 0.9rem;
+    font-family: monospace;
+}
+table, th, td {
+    border: 1px solid;
+    border-collapse: collapse;
+}
+p{
+    @apply py-3;
+}
+html{
+    scroll-behavior: smooth;
+}

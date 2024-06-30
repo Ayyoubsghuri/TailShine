@@ -1,0 +1,60 @@
+.nav {
+    @apply text-[#4e134f] font-bold px-[0.7px]  ;
+}
+
+.notificationWrapper {
+    @apply flex flex-row items-center justify-between w-96 bg-gray-900 px-4 py-6 text-white shadow-2xl hover:shadow-none transform-gpu translate-y-0 hover:translate-y-1 rounded-xl relative transition-all  duration-500   ease-in-out;
+    
+    @keyframes mymove {
+        from {top: -20px;}
+        to {top: 100px;}
+    }
+}
+.iconWrapper {
+    @apply text-xl;
+}
+
+.contentWrapper {
+    @apply flex flex-col items-start justify-center ml-4 cursor-default;
+}
+
+.contentWrapper h1 {
+    @apply text-base text-gray-200 font-semibold leading-none tracking-wider;
+}
+
+.contentWrapper p {
+    @apply text-sm text-gray-400 mt-2 leading-relaxed tracking-wider;
+}
+
+.closeIcon {
+    @apply absolute top-2 right-2 cursor-pointer text-lg;
+}
+.img{
+    filter: invert(0%) sepia(100%) saturate(3219%) hue-rotate(283deg) brightness(309%) contrast(439%);
+}
+.img:after{
+    background: linear-gradient(180deg, rgba(146, 24, 199, 0.1) 0%, rgba(255,255,255,0.5) 40%, rgba(255,255,255,0.9) 60%,rgba(255,255,255,1) 100%);
+}
+.blurbt:after{
+    content: '';
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    height: 7%;
+    bottom: 0;
+    display: block;
+    background: linear-gradient(360deg, #ffffff 0%, rgba(255,255,255,0.5) 40%, rgba(255,255,255,0.9) 60%,#392a99 100%);
+}
+.btn{
+    /* From https://css.glass */
+background: rgba(251, 251, 251, 0.408);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+}
+@media only screen  and (max-width: 1067px) {
+    .blurbt:after{
+        display: none;
+    }
+}
