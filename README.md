@@ -103,7 +103,7 @@ Welcome to **TailShine**, a comprehensive API service platform designed to provi
 
 ## Figma design
 
-visit [API Documentation](https://www.figma.com/design/YazCxfTdf9EQGFPVECevWJ/TailShine?node-id=1-957&t=VnCsrDkGDuZqOZ9P-1).
+visit [FIGMA LLINK](https://www.figma.com/design/YazCxfTdf9EQGFPVECevWJ/TailShine?node-id=1-957&t=VnCsrDkGDuZqOZ9P-1).
 
 ## License
 
