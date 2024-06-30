@@ -28,10 +28,10 @@ TailShine is a versatile API service that provides users with a suite of tools i
 ### Installation
 
 1. **Clone the repository:**
-   \`\`\`bash
-   git clone https://github.com/your-username/tailshine.git
+   ```bash
+   git clone https://github.com/AyoubSghuri/tailshine.git
    cd tailshine
-   \`\`\`
+   ```
 
 2. **Backend Setup:**
    - Create a virtual environment and activate it:
