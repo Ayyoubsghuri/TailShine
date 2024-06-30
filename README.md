@@ -35,33 +35,33 @@ TailShine is a versatile API service that provides users with a suite of tools i
 
 2. **Backend Setup:**
    - Create a virtual environment and activate it:
-     \`\`\`bash
+     ```bash
      python -m venv env
      source env/bin/activate  # On Windows use \`env\Scripts\activate\`
-     \`\`\`
+    ```
    - Install the required packages:
-     \`\`\`bash
+     ```bash
      pip install -r requirements.txt
-     \`\`\`
+    ```
    - Apply migrations and start the Django server:
-     \`\`\`bash
+     
      python manage.py migrate
      python manage.py runserver
-     \`\`\`
+    ```
 
 3. **Frontend Setup:**
    - Navigate to the frontend directory:
-     \`\`\`bash
+     ```bash
      cd frontend
-     \`\`\`
+    ```
    - Install the required packages:
-     \`\`\`bash
+     ```bash
      npm install
-     \`\`\`
+    ```
    - Start the React development server:
-     \`\`\`bash
+     ```bash
      npm start
-     \`\`\`
+    ```
 
 ### API Usage
 
@@ -72,7 +72,7 @@ X-API-KEY: your_api_key_here
 
 #### Example Request
 
-\`\`\`bash
+```bash
 curl -X GET "https://api.tailshine.com/image-to-text" \
      -H "X-API-KEY: your_api_key_here"
 \`\`\`
