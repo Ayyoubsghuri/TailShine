@@ -99,9 +99,9 @@ Welcome to **TailShine**, a comprehensive API service platform designed to provi
     print(response.json())
     ```
 
-## API Documentation
+## Figma design
 
-For detailed API documentation and examples, visit our [API Documentation](https://www.figma.com/design/YazCxfTdf9EQGFPVECevWJ/TailShine?node-id=1-957&t=VnCsrDkGDuZqOZ9P-1).
+visit [API Documentation](https://www.figma.com/design/YazCxfTdf9EQGFPVECevWJ/TailShine?node-id=1-957&t=VnCsrDkGDuZqOZ9P-1).
 
 ## License
 
