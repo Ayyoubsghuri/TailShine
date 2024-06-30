@@ -1,4 +1,4 @@
-# TailShine
+# TailShine - API Project
 
 Welcome to **TailShine**, a comprehensive API service platform designed to provide developers with essential tools to enhance their applications. With TailShine, you can access a variety of APIs for free, with a limit of 30,000 requests per month on the free plan.
 
