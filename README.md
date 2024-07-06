@@ -32,7 +32,7 @@ Welcome to **TailShine**, a comprehensive API service platform designed to provi
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/tailshine.git
+    git clone https://github.com/AyoubSghuri/tailshine.git
     cd tailshine
     ```
 
