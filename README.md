@@ -52,7 +52,7 @@ Welcome to **TailShine**, a comprehensive API service platform designed to provi
 
 3. Set up the frontend:
     ```bash
-    cd ../frontend
+    cd ../TailSHINE_Frontend
     npm install
     npm start
     ```
