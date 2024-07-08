@@ -69,7 +69,7 @@ Welcome to **TailShine**, a comprehensive API service platform designed to provi
     ```python
     import requests
 
-    url = "https://api.tailshine.com/image-to-text"
+    url = "http://localhost:8000/api/image-to-text"
     headers = {"X-API-KEY": "your_api_key_here"}
     files = {"file": open("image.png", "rb")}
 
@@ -81,7 +81,7 @@ Welcome to **TailShine**, a comprehensive API service platform designed to provi
     ```python
     import requests
 
-    url = "https://api.tailshine.com/qr-code-reader"
+    url = "http://localhost:8000/api/qr-code-reader"
     headers = {"X-API-KEY": "your_api_key_here"}
     files = {"file": open("qrcode.png", "rb")}
 
@@ -93,7 +93,7 @@ Welcome to **TailShine**, a comprehensive API service platform designed to provi
     ```python
     import requests
 
-    url = "https://api.tailshine.com/grammar-check"
+    url = "http://localhost:8000/api/grammar-check"
     headers = {"X-API-KEY": "your_api_key_here"}
     data = {"text": "Your text goes here"}
 
