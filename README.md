@@ -13,7 +13,7 @@ Welcome to **TailShine**, a comprehensive API service platform designed to provi
 - **API Translate**: Translate text between different languages.
 - **API Currency Exchange**: Get real-time currency exchange rates.
 
-##Screenshot 
+## Screenshot 
 ![alt text](https://github.com/AyoubSghuri/TailShine/blob/main/TailSHINE_Frontend/screenshot.png)
 
 ## Technologies Used
