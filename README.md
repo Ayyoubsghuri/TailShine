@@ -3,7 +3,7 @@
 Welcome to **TailShine**, a comprehensive API service platform designed to provide developers with essential tools to enhance their applications. With TailShine, you can access a variety of APIs for free, with a limit of 30,000 requests per month on the free plan.
 
 
-![alt text](https://github.com/AyoubSghuri/TailShine/blob/main/TailSHINE_Frontend/src/images/logoinwhite.png)
+![alt text](https://github.com/AyyoubSghuri/TailShine/blob/main/TailSHINE_Frontend/src/images/logoinwhite.png)
 ## Features
 
 - **API Image to Text**: Convert images to text effortlessly.
@@ -14,7 +14,7 @@ Welcome to **TailShine**, a comprehensive API service platform designed to provi
 - **API Currency Exchange**: Get real-time currency exchange rates.
 
 ## Project (Home screen) 
-![alt text](https://github.com/AyoubSghuri/TailShine/blob/main/TailSHINE_Frontend/screenshot.png)
+![alt text](https://github.com/AyyoubSghuri/TailShine/blob/main/TailSHINE_Frontend/screenshot.png)
 
 ## Technologies Used
 
@@ -35,7 +35,7 @@ Welcome to **TailShine**, a comprehensive API service platform designed to provi
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/AyoubSghuri/tailshine.git
+    git clone https://github.com/AyyoubSghuri/tailshine.git
     cd tailshine
     ```
 
